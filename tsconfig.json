@@ -1,4 +1,5 @@
 {
+    "sourceMap": true,
     "compilerOptions": {
         "module": "commonjs",
         "target": "esnext",
