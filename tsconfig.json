@@ -4,7 +4,10 @@
         "module": "commonjs",
         "target": "esnext",
         "baseUrl": "src",
-        "checkJs": true
+        "checkJs": true,
+        "esModuleInterop": true,
+        "types": ["node"]
     },
-    "exclude": ["node_modules", "**/node_modules/*"]
+    "exclude": ["node_modules", "**/node_modules/*"],
+    
 }
